@@ -4,6 +4,8 @@ A build specification and QA toolkit for AI-generated mathematics corpora. Valid
 
 Status: **spec + tools v0.1**, data currency **as of 2026-10-11**.
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 AI labs now release math manuscripts in bulk (hundreds of papers, thousands of problem families, mixed formal-verification rates). Downstream researchers want to build on such corpora, but three questions block reuse: *is the metadata schema consistent?*, *are there near-duplicate manuscripts inflating results?*, and *what may I legally redistribute?* Public releases rarely answer all three, and teams re-invent ad-hoc checks per project. This repo turns those checks into a small, auditable toolkit plus a written corpus spec.
